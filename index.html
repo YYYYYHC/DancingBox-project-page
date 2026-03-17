@@ -145,11 +145,19 @@
     }
     .teaser-wrap img { width: 100%; display: block; }
     .teaser-tldr {
-      display: flex; align-items: baseline; gap: 12px;
-      padding: 13px 20px;
+      display: flex; align-items: stretch; gap: 0;
       font-size: 0.95rem; line-height: 1.7; color: var(--text);
       border-top: 1px solid var(--border);
       background: var(--accent-lt);
+    }
+    .teaser-tldr .tldr-label {
+      display: flex; align-items: center; justify-content: center;
+      padding: 13px 18px;
+      background: var(--accent); color: #fff;
+      border-radius: 0; flex-shrink: 0;
+    }
+    .teaser-tldr .tldr-text {
+      padding: 13px 20px;
     }
 
     /* ===== ABSTRACT ===== */
@@ -164,7 +172,7 @@
       max-width: 780px; margin: 0 auto 28px;
     }
     .tldr-label {
-      font-size: 0.7rem; font-weight: 800; letter-spacing: 0.1em;
+      font-size: 0.85rem; font-weight: 800; letter-spacing: 0.1em;
       text-transform: uppercase; color: var(--accent);
       flex-shrink: 0; padding-top: 2px;
     }
@@ -391,9 +399,9 @@
            alt="DancingBox teaser: a user manipulates a banana as a proxy puppet; the system generates a realistic 3D character animation." />
       <div class="teaser-tldr">
         <span class="tldr-label">TL;DR</span>
-        We bridge vision foundation models with generative AI to propose a new technical path toward
-        truly accessible motion capture. No suits or sensors are required — just a smartphone camera
-        and an everyday object as your actor.
+        <span class="tldr-text">We bridge vision foundation models with generative AI to propose a new technical path toward
+        accessible motion capture. No suits or sensors are required — just a smartphone camera
+        and an everyday object as your actor.</span>
       </div>
     </div>
 
