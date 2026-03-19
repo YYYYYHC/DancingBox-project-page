@@ -381,7 +381,7 @@
     </div>
 
     <div class="action-btns">
-      <a href="https://arxiv.org/html/2603.17704v1" target="_blank" class="btn btn-primary">
+      <a href="paper.pdf" target="_blank" class="btn btn-primary">
         📄 Paper
       </a>
       <a href="https://youtu.be/p_VoEhKDpx8" target="_blank" class="btn btn-outline">
