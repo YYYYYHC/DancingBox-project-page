@@ -96,6 +96,15 @@
       font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em;
       padding: 4px 14px; border-radius: 999px;
     }
+    .talk-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: #f0fdf4; color: #16a34a;
+      border: 1.5px solid #86efac;
+      font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em;
+      padding: 4px 14px; border-radius: 999px;
+      text-decoration: none; transition: background .15s;
+    }
+    .talk-badge:hover { background: #dcfce7; }
 
     .hero-title {
       font-size: clamp(1.85rem, 4vw, 2.75rem);
@@ -360,6 +369,9 @@
     <div class="hero-badges">
       <div class="venue-badge">📍 CHI 2026 · Barcelona</div>
       <div class="award-badge">🏅 Honorable Mention Award</div>
+      <a href="https://programs.sigchi.org/chi/2026/program/content/223358" target="_blank" class="talk-badge">
+        🎤 Talk · Wed 15 Apr, 9:12–9:24 AM · Find me there!
+      </a>
     </div>
 
     <h1 class="hero-title">
